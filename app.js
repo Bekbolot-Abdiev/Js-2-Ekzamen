@@ -15,6 +15,8 @@ function createTrans(soz, callback) {
 
     delBtn.onclick=()=>{
         liTag.remove()
+        localStorage.removeItem('sozdor')
+
     }
 }
 
